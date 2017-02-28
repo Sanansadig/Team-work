@@ -1,0 +1,256 @@
+body {
+	margin:0;
+}
+
+.main {
+	width:100%;
+	margin: 0px auto;
+}
+
+
+[class*='col_'] {
+	float:left;
+}
+
+.col_1 {width:8.33%;}
+.col_2 {width:16.6666666667%;}
+.col_3 {width:25%;}
+.col_4 {width:33.33%;}
+.col_5 {width:41.6666666667%;}
+.col_6 {width:50%;}
+.col_7 {width:58.33%;}
+.col_8 {width:66.6666666667%;}
+.col_9 {width:75%;}
+.col_10 {width:83.33%;}
+.col_11 {width:91.6666666667%;}
+.col_12 {width:100%;}
+
+.col_offset_1 {margin-left:8.33%;}
+.col_offset_2 {margin-left:16.6666666667%;}
+.col_offset_3 {margin-left:25%;}
+.col_offset_4 {margin-left:33.33%;}
+.col_offset_5 {margin-left:41.6666666667%;}
+.col_offset_6 {margin-left:50%;}
+.col_offset_7 {margin-left:58.33%;}
+.col_offset_8 {margin-left:66.6666666667%;}
+.col_offset_9 {margin-left:75%;}
+.col_offset_10 {margin-left:83.33%;}
+.col_offset_11 {margin-left:91.6666666667%;}
+.col_offset_12 {margin-left:100%;}
+.col_offset_1_r {margin-right:8.33%;}
+
+
+.clearfix {
+	clear:both;
+}
+
+
+
+.background {
+    background-image: url('sekil/doctor.jpeg');
+    width:100%;
+    height:600px;
+    background-size:cover;
+    position:relative;
+    color:black;
+    z-index: 1;
+    
+}
+   #screen { 
+     position:absolute;
+     top:200px;
+     left:450px;
+     color:white;
+     z-index:2; 
+ }
+ strong {
+    color:darkblue;
+ }
+
+ .experience {
+     background-color:dodgerblue;
+ }
+ .line {
+     position:relative;
+ }
+ #years, #magna {
+     color:white;
+     text-align:center;
+ }
+  .data {
+      display:flex;
+      background-color: dodgerblue;
+      color:white;
+      justify-content: space-around;
+      text-align:center;
+  }
+
+  .phsysio {
+      text-align: center;
+      margin-left: 30px;
+  }
+  .make {
+      color:dodgerblue;
+      text-align: center;
+      margin-top:70px;
+  }
+.nullam {
+    text-align:center;
+}
+.name {
+    display:flex;
+    margin-top:30px;
+    
+}
+.photo {
+    flex:1;
+}
+.boxes {
+    flex:1;
+    border: 1px solid lightgrey;
+    margin-left:10px;
+    margin-right:10px;
+    display:flex;
+    flex-direction:column;
+}
+
+.first {
+    flex:1;
+    border:1px solid lightgrey;
+    flex-direction:column;
+    display:flex;
+    flex-direction:row;
+    text-align: center;
+    border-bottom:none;
+}
+
+.r_name {
+    flex:1;
+    margin-top:30px;
+    margin-left:10px;
+    
+
+}
+.e_mail {
+    flex:1;
+     margin-top:30px;
+     margin-right:40px;
+    
+}
+
+.second {
+    flex:3;
+    border:1px solid lightgrey;
+    flex-direction:row;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    border-top:none;
+  
+}
+
+.d_discus {
+    flex:1;
+}
+
+.p_phone {
+    flex:1;
+}
+.d_date {
+    flex:1;
+}
+
+.your_name, .email {
+    padding:10px;
+}
+
+.discus, .phone, .date {
+    padding:10 150 10 150;
+    margin-left:-25px;
+}
+
+
+p:nth-child(4) {
+  width:100px;
+  background-color:dodgerblue;
+  border: 1px solid;
+  padding:5px;
+  margin-left:60px;
+  border-style: hidden;
+  color:white;
+}
+
+.black {
+    width:100%;
+    height:100px;
+    background-color:black;
+    color:white;
+    text-align:center;
+    position:relative;
+    margin-top:20px;
+}
+
+.black p {
+    position:absolute;
+    top:5px;
+    left:450;
+    font-size:30px;
+}   
+
+.black:hover {
+    color:white;
+    background-color: dodgerblue;
+}
+
+.gallery span {
+    text-align: center;
+    color:dodgerblue;
+    padding-top:50px;
+    font-size: 30px;
+    text-decoration: bold;
+}
+
+.gallery {
+    text-align: center;
+    background-color:#F9F7F9;
+    padding:50px;
+}
+
+.sekil {
+    background-color:#F9F7F9;
+    
+}
+
+.margin_bottom {
+    margin-bottom:50px;
+}
+
+.testimonal {
+    background-image: url('sekil/hospital.jpeg');
+    width:100%;
+    height:500px;
+    background-size:cover;
+    position:relative;
+    
+}
+
+.testimonal h1 {
+    position:absolute;
+    top:80px;
+    left:40%;
+    color:white;
+    font-size:50px;
+}
+
+.overlay {
+    /*z-index: 1;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+       background: rgba(0, 0, 0, 0.65);
+}
+
+
+
